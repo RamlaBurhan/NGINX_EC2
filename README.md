@@ -31,11 +31,53 @@
  
 **Step 1) Launch EC2 instance**
 
-I.  Allocated the instance an elastic IPv4 address 
-II. Check Security groups 
-Allow the following for the inbound rules:  
-Port 80/tcp 
-Port 443/tcp 
-Port 22/tcp 
+I.  Allocate the EC2 instance an elastic IPv4 address
+II. Check security groups
+Allow the following inbound rules:
+Port 80/tcp  
+port 443/tcp
+port 22/tco
+
+---
+
+**Step 2) Create a DNS record for the NGINX subdomain**
+I. Map you domain to the Elastic IPv4 address assigned to the EC2 instance
+
+II. Check if it is propagated:
+
+```Bash
+nslookup nginx.ramlaburhan.com
+```
+
+
+***Step 3) Install Nginx
+I. Update and Install
+
+```Bash
+sudo dnf update -y
+sudo dnf install nginx -y
+```
+
+II. Check status
+
+```Bash 
+sudo systemctl status nginx 
+```
+
+
+III. Enable and Start NGINX
+
+```Bash
+Sudo systemctl enable --now nginx
+```
+
+
+
+
+
+***Step 4) Launch website**
+Open browser and type:
+
+[http://nginx.ramlaburhan.com](http://nginx.ramlaburhan.com)
 
 
