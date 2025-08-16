@@ -37,12 +37,8 @@
 I.  Allocated the instance an elastic IPv4 address 
 
 II. Check Security groups 
-
 Allow the following for the inbound rules:  
-
 Port 80/tcp 
-
 Port 443/tcp 
-
 Port 22/tcp 
 
