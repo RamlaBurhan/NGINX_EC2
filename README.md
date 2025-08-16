@@ -49,7 +49,7 @@ II. Check if it is propagated:
 ```Bash
 nslookup nginx.ramlaburhan.com
 ```
-
+![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/625691104a371c1b73aee41eae6f6d83e69be3e0/image7.png)
 
 ***Step 3) Install Nginx
 I. Update and Install
