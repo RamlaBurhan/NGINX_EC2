@@ -37,7 +37,7 @@ Allow the following inbound rules:
 Port 80/tcp  
 port 443/tcp
 port 22/tco
-
+![image alt] (https://github.com/RamlaBurhan/NGINX_EC2/blob/d82c8acf66448b0e0e4b261b88ad82f9baa6139c/Image2.png) 
 ---
 
 **Step 2) Create a DNS record for the NGINX subdomain**
