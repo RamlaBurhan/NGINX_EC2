@@ -3,7 +3,6 @@
 #### This project guides you through: 
 
 1. Deploying an NGINX web server on an AWS EC2 instance. 
-
 2. Linking it to a custom subdomain  
 
  
@@ -23,9 +22,7 @@
 
 #### Pre-requisites: 
 - A domain name  
-
 - AWS Account 
-
 - An EC2 Key pair  
 
 ---- 
