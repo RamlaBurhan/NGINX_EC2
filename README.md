@@ -64,7 +64,9 @@ II. Check status
 ```Bash 
 sudo systemctl status nginx 
 ```
+![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/42ea4da6708eafc711d054246eb54b758e6a360e/Picture8.png)
 
+----
 
 III. Enable and Start NGINX
 
