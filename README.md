@@ -32,6 +32,7 @@
 **Step 1) Launch EC2 instance**
 
 I.  Allocated the instance an elastic IPv4 address 
+
 II. Check Security groups 
 Allow the following for the inbound rules:  
 Port 80/tcp 
