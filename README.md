@@ -6,17 +6,8 @@
 2. Linking it to a custom subdomain  
 
  
-
 [http://nginx.ramlaburhan.com] (http://nginx.ramlaburhan.com/) 
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/d71f6448c8a75650f49cbab745ce684b7ce0a347/Image1.png)
-
-
-
-
-
-
-
-
 
 ----
 
@@ -27,58 +18,61 @@
 
 ---- 
 
-#### These are the following key steps to launching your site: 
+### These are the following key steps to launching your site: 
  
-**Step 1) Launch EC2 instance**
+####Step 1) Launch EC2 instance**
 
-I.  Allocate the EC2 instance an elastic IPv4 address
-II. Check security groups
+***I. Allocate the EC2 instance an elastic IPv4 address***
+***II. Check security groups***
 Allow the following inbound rules:
 Port 80/tcp  
 port 443/tcp
 port 22/tco
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/d82c8acf66448b0e0e4b261b88ad82f9baa6139c/Image2.png)
+
 ---
 
-**Step 2) Create a DNS record for the NGINX subdomain**
+#### Step 2) Create a DNS record for the NGINX subdomain**
+
 I. Map you domain to the Elastic IPv4 address assigned to the EC2 instance
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/431bf3aaa907d152901d1a7e14e83a34cf611573/image3.png)
 
-II. Check if it is propagated:
+***II. Check if it is propagated:***
 
 ```Bash
 nslookup nginx.ramlaburhan.com
 ```
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/625691104a371c1b73aee41eae6f6d83e69be3e0/image7.png)
 
-***Step 3) Install Nginx
-I. Update and Install
+---
+
+#### Step 3) Install Nginx
+
+***I. Update and Install***
 
 ```Bash
 sudo dnf update -y
 sudo dnf install nginx -y
 ```
 
-II. Check status
+***II. Check status***
 
 ```Bash 
 sudo systemctl status nginx 
 ```
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/42ea4da6708eafc711d054246eb54b758e6a360e/Picture8.png)
 
-----
 
-III. Enable and Start NGINX
+***III. Enable and Start NGINX***
 
 ```Bash
 Sudo systemctl enable --now nginx
 ```
+![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/a036d4785997b5f96ac92651413cf614870c37de/Picture9.png)
 
+---
 
-
-
-
-***Step 4) Launch website**
+#### Step 4) Launch website**
 Open browser and type:
 
 [http://nginx.ramlaburhan.com](http://nginx.ramlaburhan.com)
