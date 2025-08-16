@@ -8,7 +8,7 @@
  
 
 [http://nginx.ramlaburhan.com] (http://nginx.ramlaburhan.com/) 
-
+![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/d71f6448c8a75650f49cbab745ce684b7ce0a347/Image1.png)
 
 
 
