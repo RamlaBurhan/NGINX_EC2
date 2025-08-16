@@ -11,7 +11,7 @@
 
 ----
 
-#### Pre-requisites: 
+### Pre-requisites: 
 - A domain name  
 - AWS Account 
 - An EC2 Key pair  
@@ -20,15 +20,14 @@
 
 ### These are the following key steps to launching your site: 
  
-####Step 1) Launch EC2 instance**
+#### Step 1) Launch EC2 instance
 
 ***I. Allocate the EC2 instance an elastic IPv4 address***
 ***II. Check security groups***
 Allow the following inbound rules:
-Port 80/tcp  
-port 443/tcp
-port 22/tco
-![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/d82c8acf66448b0e0e4b261b88ad82f9baa6139c/Image2.png)
+- Port 80/tcp  
+- Port 443/tcp
+- port 22/tco
 
 ---
 
@@ -37,7 +36,7 @@ port 22/tco
 I. Map you domain to the Elastic IPv4 address assigned to the EC2 instance
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/431bf3aaa907d152901d1a7e14e83a34cf611573/image3.png)
 
-***II. Check if it is propagated:***
+***II.Check if it is propagated:***
 
 ```Bash
 nslookup nginx.ramlaburhan.com
@@ -48,14 +47,14 @@ nslookup nginx.ramlaburhan.com
 
 #### Step 3) Install Nginx
 
-***I. Update and Install***
+***I.Update and Install***
 
 ```Bash
 sudo dnf update -y
 sudo dnf install nginx -y
 ```
 
-***II. Check status***
+***II.Check status***
 
 ```Bash 
 sudo systemctl status nginx 
@@ -63,7 +62,7 @@ sudo systemctl status nginx
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/42ea4da6708eafc711d054246eb54b758e6a360e/Picture8.png)
 
 
-***III. Enable and Start NGINX***
+***III.Enable and Start NGINX***
 
 ```Bash
 Sudo systemctl enable --now nginx
