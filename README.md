@@ -11,7 +11,7 @@
 
 ----
 
-## Pre-requisites: 
+## Prerequisites: 
 - A domain name  
 - AWS Account 
 - An EC2 Key pair  
@@ -27,7 +27,7 @@
 ##### Allow the following inbound rules:
 - Port 80/tcp  
 - Port 443/tcp
-- port 22/tcp
+- Port 22/tcp
 
 ---
 
