@@ -6,7 +6,7 @@
 2. Linking it to a custom subdomain  
 
  
-[http://nginx.ramlaburhan.com] (http://nginx.ramlaburhan.com/) 
+[http://nginx.ramlaburhan.com](http://nginx.ramlaburhan.com/) 
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/d71f6448c8a75650f49cbab745ce684b7ce0a347/Image1.png)
 
 ----
@@ -24,7 +24,7 @@
 
 ##### I. Allocate the EC2 instance an elastic IPv4 address
 ##### II. Check security groups
-Allow the following inbound rules:
+#### Allow the following inbound rules:
 - Port 80/tcp  
 - Port 443/tcp
 - port 22/tco
@@ -36,7 +36,7 @@ Allow the following inbound rules:
 ##### I. Map you domain to the Elastic IPv4 address assigned to the EC2 instance
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/431bf3aaa907d152901d1a7e14e83a34cf611573/image3.png)
 
-##### II.Check if it is propagated:
+##### II. Check if it is propagated:
 
 ```Bash
 nslookup nginx.ramlaburhan.com
@@ -47,14 +47,14 @@ nslookup nginx.ramlaburhan.com
 
 ### Step 3) Install Nginx
 
-##### I.Update and Install
+##### I. Update and Install
 
 ```Bash
 sudo dnf update -y
 sudo dnf install nginx -y
 ```
 
-##### II.Check status
+##### II. Check status
 
 ```Bash 
 sudo systemctl status nginx 
@@ -62,7 +62,7 @@ sudo systemctl status nginx
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/470d94bd6456bc1c5125bde94c4abc30ef54f546/Picture9.png)
 
 
-##### III.Enable and Start NGINX
+##### III. Enable and Start NGINX
 
 ```Bash
 Sudo systemctl enable --now nginx
