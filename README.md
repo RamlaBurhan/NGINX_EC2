@@ -20,7 +20,7 @@
 
 ### These are the following key steps to launching your site: 
  
-## Step 1) Launch EC2 instance
+### Step 1) Launch EC2 instance
 
 ##### I. Allocate the EC2 instance an elastic IPv4 address
 ##### II. Check security groups
