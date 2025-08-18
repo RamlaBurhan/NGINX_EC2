@@ -67,7 +67,7 @@ sudo systemctl status nginx
 ```Bash
 Sudo systemctl enable --now nginx
 ```
-![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/a036d4785997b5f96ac92651413cf614870c37de/Picture9.png)
+![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/aace06fb460c82485c48fed54e8cc2c4e19cba21/Picture1.png)
 
 ---
 
