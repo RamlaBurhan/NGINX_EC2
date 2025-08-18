@@ -31,7 +31,7 @@
 
 ---
 
-### Step 2) Create a DNS record for the NGINX subdomain
+### Step 2) Create a DNS record for the NGINX subdomain using Cloudflare
 
 ##### I. Map you domain to the Elastic IPv4 address assigned to the EC2 instance
 ![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/431bf3aaa907d152901d1a7e14e83a34cf611573/image3.png)
