@@ -18,13 +18,13 @@
 
 ---- 
 
-### These are the following key steps to launching your site: 
+### Below are the key steps to deploy NGINX on AWS EC2 with a custom domain:
  
 ### Step 1) Launch EC2 instance
 
 ##### I. Allocate the EC2 instance an elastic IPv4 address
 ##### II. Check security groups
-#### Allow the following inbound rules:
+##### Allow the following inbound rules:
 - Port 80/tcp  
 - Port 443/tcp
 - port 22/tco
