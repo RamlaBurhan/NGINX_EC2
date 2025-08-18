@@ -59,7 +59,7 @@ sudo dnf install nginx -y
 ```Bash 
 sudo systemctl status nginx 
 ```
-![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/42ea4da6708eafc711d054246eb54b758e6a360e/Picture8.png)
+![image alt](https://github.com/RamlaBurhan/NGINX_EC2/blob/470d94bd6456bc1c5125bde94c4abc30ef54f546/Picture9.png)
 
 
 ***III.Enable and Start NGINX***
