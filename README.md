@@ -27,7 +27,7 @@
 ##### Allow the following inbound rules:
 - Port 80/tcp  
 - Port 443/tcp
-- port 22/tco
+- port 22/tcp
 
 ---
 
