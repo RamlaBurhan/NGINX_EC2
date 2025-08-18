@@ -18,7 +18,7 @@
 
 ---- 
 
-### Below are the key steps to deploy NGINX on AWS EC2 with a custom domain:
+### Below are the key steps for deploying NGINX on AWS EC2 with a custom domain:
  
 ### Step 1) Launch EC2 instance
 
