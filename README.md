@@ -1,4 +1,4 @@
-# Deploy NGINX on AWS EC2 with custom domain 
+# Deploy NGINX on AWS EC2 with Custom Domain 
 
 ### This project guides you through: 
 
